@@ -9,13 +9,16 @@
 		"liveSassCompile.settings.formats":[
 		
 			{
-				// quel façon gérer css
 				"format": "compressed",
-				// changer nom
 				"extensionName": ".min.css",
-				// location
-				"savePath": "css/"
+				"savePath": "~/../css/"
 			},
+			{
+			
+				"format": "expanded",
+				"extensionName": ".css",
+				"savePath": "~/../css/"
+			}
 			
 		]
 

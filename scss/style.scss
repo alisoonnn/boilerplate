@@ -3,7 +3,7 @@
 // @import "medium";
 // @import "large";
 // @import "xlarge";
-// @import "xxlarge";
+// @import "xxlarge"; 
 
 
 @media (max-width : 575px){
@@ -21,6 +21,6 @@
 @media (min-width : 1200px) and (max-width : 1399px){
     @import "xlarge";
 }
-@media (min-width : 1400px){
+@media (min-width : 1400px){ 
     @import "xxlarge";
 }
