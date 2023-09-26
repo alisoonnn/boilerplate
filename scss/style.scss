@@ -1,0 +1,26 @@
+// @import "xsmall";
+// @import "small";
+// @import "medium";
+// @import "large";
+// @import "xlarge";
+// @import "xxlarge";
+
+
+@media (max-width : 575px){
+    @import "xsmall";
+}
+@media (min-width : 576px) and (max-width : 767px){
+    @import "small";
+}
+@media (min-width : 768px) and (max-width : 991px){
+    @import "medium";
+}
+@media (min-width : 992px) and (max-width : 1199px){
+    @import "large";
+}
+@media (min-width : 1200px) and (max-width : 1399px){
+    @import "xlarge";
+}
+@media (min-width : 1400px){
+    @import "xxlarge";
+}

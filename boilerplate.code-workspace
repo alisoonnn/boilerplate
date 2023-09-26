@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+
+		"liveSassCompile.settings.formats":[
+		
+			{
+				// quel façon gérer css
+				"format": "compressed",
+				// changer nom
+				"extensionName": ".min.css",
+				// location
+				"savePath": "css/"
+			},
+			
+		]
+
+
+	}
+}
