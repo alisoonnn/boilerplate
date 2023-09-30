@@ -31,7 +31,28 @@
 }
 @media (min-width: 1400px) {
   body {
-    background-color: lightseagreen;
     content: ">=1400";
   }
+}
+.section-articles {
+  background-color: aliceblue;
+}
+
+article {
+  width: 15vw;
+  aspect-ratio: 1/1;
+  background-color: beige;
+  margin: 2vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hidden {
+  display: none;
 }/*# sourceMappingURL=style.css.map */
