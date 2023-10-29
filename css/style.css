@@ -1,58 +1,60 @@
-@media (max-width: 575px) {
-  body {
-    background-color: coral;
-    content: "<576";
-  }
-}
-@media (min-width: 576px) and (max-width: 767px) {
-  body {
-    background-color: lightblue;
-    content: ">=576";
-  }
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  body {
-    background-color: beige;
-    content: ">=768";
-  }
-}
-@media (min-width: 992px) and (max-width: 1199px) {
-  body {
-    background-color: lightpink;
-    content: ">=992";
-    color: white;
-  }
-}
-@media (min-width: 1200px) and (max-width: 1399px) {
-  body {
-    background-color: lightgreen;
-    content: ">=1200";
-  }
-}
-@media (min-width: 1400px) {
-  body {
-    content: ">=1400";
-  }
-}
-.section-articles {
-  background-color: aliceblue;
+* {
+  box-sizing: border-box;
 }
 
-article {
-  width: 15vw;
-  aspect-ratio: 1/1;
-  background-color: beige;
-  margin: 2vw;
+h1 {
+  font-size: 8vh;
+  margin: 3vh;
+}
+
+h3 {
+  margin: 0.5vh;
+}
+
+p {
+  margin: 0;
+}
+
+body {
+  font-family: Poppins;
+}
+body section {
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
-
-.container {
+body section article {
+  width: 80vw;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
-
-.hidden {
-  display: none;
+body section article div {
+  cursor: pointer;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 20vw;
+  margin: 1vh;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 3%;
+  word-wrap: break-word;
+  white-space: normal;
+}
+body section article div img {
+  aspect-ratio: 1/1;
+  height: 16vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50vh;
+}
+body section article div .msg {
+  font-weight: 700;
+  margin-bottom: 1vh;
 }/*# sourceMappingURL=style.css.map */

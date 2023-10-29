@@ -6,23 +6,100 @@
 // @import "xxlarge"; 
 
 
-@media (max-width : 575px){
-    @import "xsmall";
-}
-@media (min-width : 576px) and (max-width : 767px){
-    @import "small";
-}
-@media (min-width : 768px) and (max-width : 991px){
-    @import "medium";
-}
-@media (min-width : 992px) and (max-width : 1199px){
-    @import "large";
-}
-@media (min-width : 1200px) and (max-width : 1399px){
-    @import "xlarge";
-}
-@media (min-width : 1400px){ 
-    @import "xxlarge";
+// @media (max-width : 575px){
+//     @import "xsmall";
+// }
+// @media (min-width : 576px) and (max-width : 767px){
+//     @import "small";
+// }
+// @media (min-width : 768px) and (max-width : 991px){
+//     @import "medium";
+// }
+// @media (min-width : 992px) and (max-width : 1199px){
+//     @import "large";
+// }
+// @media (min-width : 1200px) and (max-width : 1399px){
+//     @import "xlarge";
+// }
+// @media (min-width : 1400px){ 
+//     @import "xxlarge";
+// }
+
+// @import "section-articles";
+
+*{
+    box-sizing: border-box;
 }
 
-@import "section-articles";
+h1 {
+    font-size: 8vh;
+    margin: 3vh;
+}
+
+h3 {
+    margin: 0.5vh;
+}
+
+p {
+    margin: 0;
+}
+
+body {
+    font-family: Poppins;
+
+    section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        article {
+            width: 80vw;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+
+
+            div {
+                cursor: pointer;
+                height: fit-content;
+                width: 20vw;
+                margin: 1vh;
+                border-radius: 50px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                padding: 3%;
+                word-wrap: break-word;
+                white-space: normal;
+                
+
+                    img {
+                        aspect-ratio: 1/1;
+                        height: 16vh;
+                        object-fit: cover;
+                        border-radius: 50vh;
+                    }
+
+                    .msg {
+                        font-weight:700;
+                        margin-bottom: 1vh;
+                    }
+
+                 
+                
+                
+            }
+
+        }
+
+    }
+}
+
+
+
+
+
